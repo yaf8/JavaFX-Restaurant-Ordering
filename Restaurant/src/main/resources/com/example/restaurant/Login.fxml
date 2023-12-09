@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="609.0" style="-fx-background-color: #ffdcb8;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurant.LoginController">
+   <children>
+      <Label alignment="CENTER" layoutX="203.0" layoutY="165.0" prefHeight="17.0" prefWidth="213.0" text="Hello">
+         <font>
+            <Font name="Vivaldi Italic" size="30.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="202.0" prefHeight="32.0" prefWidth="597.0" text="Sign in to your account" textFill="#5d6531">
+         <font>
+            <Font name="Vineta BT" size="16.0" />
+         </font></Label>
+      <Label layoutX="200.0" layoutY="242.0" text="Email ID">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="200.0" layoutY="294.0" prefHeight="19.0" prefWidth="66.0" text="Password">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font></Label>
+      <TextField fx:id="EMAIL" layoutX="200.0" layoutY="259.0" prefHeight="25.0" prefWidth="237.0" />
+      <Button layoutX="292.0" layoutY="348.0" mnemonicParsing="false" onAction="#LoginAction" style="-fx-background-color: #82f5b9;" text="Login">
+         <effect>
+            <DropShadow height="23.93" spread="0.03" width="18.07" />
+         </effect></Button>
+      <Button layoutX="475.0" layoutY="40.0" mnemonicParsing="false" onAction="#GetRegisteredAction" style="-fx-background-color: #7e97f2;" text="Get Registered">
+         <effect>
+            <DropShadow height="9.28" radius="7.07" />
+         </effect></Button>
+      <Label fx:id="MESSAGE" alignment="CENTER" layoutX="199.0" layoutY="386.0" prefHeight="17.0" prefWidth="237.0" />
+      <ImageView fx:id="LOGO" fitHeight="150.0" fitWidth="192.0" layoutX="219.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+      <PasswordField fx:id="PASSWORD" layoutX="200.0" layoutY="313.0" prefHeight="25.0" prefWidth="237.0" />
+   </children>
+   <effect>
+      <DropShadow height="104.54" radius="48.4725" spread="0.71" width="91.35" />
+   </effect>
+</AnchorPane>

@@ -1,0 +1,6 @@
+1. Import the sql file (restaurant.sql) in your XAMPP distribution MySql server (phpmyadmin)
+2. Open the Restaurant Folder with Intellij IDE
+3. Open the RestaurantReceiver Folder with Netbeans 8.2 IDE
+4. Add the JAR file (mysql-connector-java-8.0.30.jar) in both projects
+
+After Confirm Order run the RestaurantReceiver from Netbeans
